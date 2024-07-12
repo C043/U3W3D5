@@ -33,7 +33,7 @@ const SingleAlbum = ({ song }) => {
               type="button"
               onClick={() => dispatch(dislikeAction(song))}
               className={
-                "d-block flex-shrink-0 bg-success rounded-circle m-3 display-6 p-2 like-btn position-absolute bottom-0 end-0"
+                "d-block flex-shrink-0 bg-success rounded-circle m-3 display-6 p-2 position-absolute bottom-0 end-0"
               }
             />
           </div>
@@ -42,7 +42,7 @@ const SingleAlbum = ({ song }) => {
             type="button"
             onClick={() => dispatch(likeAction(song))}
             className={
-              "d-block flex-shrink-0 bg-success rounded-circle m-3 display-6 p-2 like-btn position-absolute bottom-0 end-0"
+              "d-block flex-shrink-0 bg-success rounded-circle m-3 display-6 p-2 position-absolute bottom-0 end-0"
             }
           />
         )}
