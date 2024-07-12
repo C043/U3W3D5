@@ -155,15 +155,13 @@ ul {
   font-weight: 700;
 }
 
-#rock,
-#pop,
-#hiphop {
+section {
   color: white;
   font-weight: 700;
   padding-top: 50px;
 }
 
-#hipHopSection {
+#last-section {
   margin-bottom: 7rem;
 }
 
