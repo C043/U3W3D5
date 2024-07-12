@@ -1,5 +1,5 @@
 import { Button, Col, Container, InputGroup, Nav, Navbar } from "react-bootstrap";
-import { BookFill, HouseDoorFill, HouseExclamationFill } from "react-bootstrap-icons";
+import { BookFill, HouseDoorFill } from "react-bootstrap-icons";
 
 const SpotifySideBar = () => {
   return (
