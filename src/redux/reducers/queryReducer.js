@@ -1,7 +1,7 @@
 import { QUERY } from "../actions";
 
 const initialState = {
-  content: [],
+  content: null,
 };
 
 const queryReducer = (state = initialState, action) => {

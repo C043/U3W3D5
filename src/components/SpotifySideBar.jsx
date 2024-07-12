@@ -1,5 +1,6 @@
-import { Button, Col, Container, InputGroup, Nav, Navbar } from "react-bootstrap";
+import { Col, Container, Nav, Navbar } from "react-bootstrap";
 import { BookFill, HouseDoorFill } from "react-bootstrap-icons";
+import SpotifySearch from "./SpotifySearch";
 
 const SpotifySideBar = () => {
   return (
@@ -37,14 +38,7 @@ const SpotifySideBar = () => {
                     </Nav.Link>
                   </li>
                   <li>
-                    <InputGroup className="mt-3">
-                      <input type="text" className="form-control" placeholder="Search" aria-label="Search" />
-                      <div className="input-group-append">
-                        <Button variant="outline-secondary" className="btn-sm h-100">
-                          GO
-                        </Button>
-                      </div>
-                    </InputGroup>
+                    <SpotifySearch />
                   </li>
                 </ul>
               </div>
