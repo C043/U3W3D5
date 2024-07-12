@@ -1,10 +1,12 @@
+import { Col, Container, Row } from "react-bootstrap";
+
 const SpotifyPlayer = () => {
   return (
-    <div className="container-fluid fixed-bottom bg-container pt-1">
-      <div className="row h-100">
-        <div className="col-lg-10 offset-lg-2">
-          <div className="row h-100 flex-column justify-content-center align-items-center">
-            <div className="col-6 col-md-4 playerControls">
+    <Container fluid className="fixed-bottom bg-container pt-1">
+      <Row className="h-100">
+        <Col lg={{ span: 10, offset: 2 }}>
+          <Row className="h-100 flex-column justify-content-center align-items-center">
+            <Col xs="6" md="4" className="playerControls">
               <div className="d-flex">
                 <a href="#">
                   <img src="assets/playerbuttons/shuffle.png" alt="shuffle" />
@@ -25,11 +27,11 @@ const SpotifyPlayer = () => {
               <div className="progress mt-3">
                 <div role="progressbar"></div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+            </Col>
+          </Row>
+        </Col>
+      </Row>
+    </Container>
   );
 };
 
